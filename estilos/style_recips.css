@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Great+Vibes&family=Tilt+Neon&display=swap');
+
+
+:root {
+    --cor0: #A30B37;
+    --cor1: #CE8147;
+    --cor2: #ECDD7B;
+    --cor3: #5FB49C;
+    --cor4: #360568;
+
+    --texto: Dosis;
+    --Theader: Great Vibes;
+    --Tsub: Tilt Neon;
+}
+
+a.ext {
+    font-weight: 800;
+    text-decoration: none;
+    color: #4f049b;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #360568;
+    padding: 20px;
+}
+
+header > h1 {
+    font-family: var(--Theader);
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+nav > a {
+    font-family: var(--Tsub);
+    text-decoration: none;
+    color: #5FB49C;
+    padding: 10px;
+}
+
+nav > a:hover {
+    color: aqua;
+    text-decoration: underline;
+    background-color: #500799;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+footer {
+    background-color: var(--cor4);
+    border-radius: 4px 4px 0px 0px;
+    padding: 10px;
+    font-family: var(--texto);
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+}
+  
