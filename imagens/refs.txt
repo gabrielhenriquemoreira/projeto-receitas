@@ -5,3 +5,7 @@ Imagem 1
 Imagem 2, 3 e 4
 
 Image by <a href="https://www.freepik.com/free-photo/omelette-with-cheese-tomatoes-high-view_10374265.htm#query=omelet&position=3&from_view=search&track=sph">Freepik</a>
+
+Imagem 5
+
+<a href="https://www.freepik.com/free-photo/happy-waiter-serving-food-group-cheerful-friends-pub_28998753.htm#query=restaurant&position=3&from_view=search&track=sph">Image by Drazen Zigic</a> on Freepik

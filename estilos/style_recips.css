@@ -74,15 +74,90 @@ nav > a:hover {
 
 main > section#sec1 {
     background-color: var(--cor3);
-    background-image: url('../imagens/Imagem4.jpg');
+    background-image: url('../imagens/Image4.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.177);
-    padding: 20px;
-    
+    padding: 20px;   
 }
 
+main > section#sec2 {
+    background-color: var(--cor4);
+    padding: 20px;
+    height: 140vh;
+    position: relative;
+}
+
+main > section#sec3 {
+    padding: 20px;
+    background-color: var(--cor1);
+    background-image: url('../imagens/Image5.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    background-color: white;
+    border-collapse: collapse;
+    font-family: var(--texto);
+}
+
+caption {
+    background-color: #4f049b;
+
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.485);
+}
+
+div#div3 {
+    background-color: rgba(221, 215, 215, 0.837);
+}
+
+div#div2 {
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    min-width: 480px;
+}
+
+main section q {
+    padding: 15px;
+    font-size: 20px;
+    font-family: var(--texto);
+}
+
+main section ul {
+    font-size: 20px;
+    padding: 15px;
+    text-align: justify;
+    font-family: var(--texto);
+    list-style-position: inside;
+    list-style-type: '\1F372\0020';
+    font-weight: 500;
+}
+
+
+main section li {
+    margin: 15px;
+}
 
 main section p {
     font-size: 20px;
@@ -96,10 +171,10 @@ main section h2 {
     text-align: center;
 }
 
-main section div#div1 {
-    background-color: rgba(211, 211, 211, 0.507);
+main section div.box {
+    background-color: rgba(211, 211, 211, 0.582);
     border-radius: 4px;
-    width: 500px;
+    max-width: 500px;
     padding: 20px 0px;
     font-weight: 600;
 
