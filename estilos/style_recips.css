@@ -144,6 +144,61 @@ div#div2 {
     min-width: 480px;
 }
 
+div#conteiner {
+    margin: 50px auto;
+    padding: 25px 25px 60px 25px;
+    width: 99vw;
+    /*background-color: orange;*/
+    width: fit-content;
+    margin-top: 50px;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom, orange, rgb(228, 222, 222));
+}
+
+div.botao {
+    background-color: blue;
+    border: 2px solid black;
+    width: 20vw;
+    height: 20vw;
+    display: inline-block;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+}
+
+ul.recet {
+    list-style-position: inside;
+    list-style-type: '\1F958\0020\0020';
+    font-family: var(--texto);
+    columns: 2;
+    padding: 10px;
+}
+
+ol.recer {
+    list-style-position: inside;
+    font-family: var(--texto);
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+div.botao:hover {
+    box-shadow: 0px -1px 20px 20px #CE8147;
+    transition-duration: 1s;
+}
+
+div#rec1 {
+    background-image: url('../imagens/Image1.jpg');
+}
+
+div#rec2 {
+    background-image: url('../imagens/Image2.jpg');
+}
+
+div#rec3 {
+    background-image: url('../imagens/Image3.jpg');
+}
+
 main section q {
     padding: 15px;
     font-size: 20px;
