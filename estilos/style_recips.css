@@ -103,6 +103,8 @@ table {
     background-color: white;
     border-collapse: collapse;
     font-family: var(--texto);
+    width: 400px;
+    font-weight: 600;
 }
 
 caption {
@@ -113,6 +115,10 @@ caption {
 th, td {
     border: 1px solid black;
     padding: 10px;
+}
+
+td.number {
+    text-align: right;
 }
 
 tbody > tr:nth-child(even) {
