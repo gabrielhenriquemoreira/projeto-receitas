@@ -78,6 +78,7 @@ main > section#sec1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.177);
     padding: 20px;   
 }
