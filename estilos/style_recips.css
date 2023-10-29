@@ -85,7 +85,7 @@ main > section#sec1 {
 main > section#sec2 {
     background-color: var(--cor4);
     padding: 20px;
-    height: 140vh;
+    height: 100%;
     position: relative;
 }
 
@@ -146,7 +146,7 @@ div#div2 {
 
 div#conteiner {
     margin: 50px auto;
-    padding: 25px 25px 60px 25px;
+    padding: 25px 10px 60px 10px;
     width: 99vw;
     /*background-color: orange;*/
     width: fit-content;
@@ -173,6 +173,13 @@ ul.recet {
     font-family: var(--texto);
     columns: 2;
     padding: 10px;
+}
+
+iframe#telinha {
+    width: 90vw;
+    height: 500px;
+    display: block;
+    margin: 50px auto;
 }
 
 ol.recer {
@@ -235,10 +242,17 @@ main section h2 {
 main section div.box {
     background-color: rgba(211, 211, 211, 0.582);
     border-radius: 4px;
-    max-width: 500px;
+    min-width: 90%;
+    min-height: fit-content;
     padding: 20px 0px;
     font-weight: 600;
 
+}
+
+p.boxp {
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.582);
+    border-radius: 4px;
 }
 
 footer {
@@ -249,5 +263,4 @@ footer {
     font-size: 13px;
     font-weight: 700;
     text-align: center;
-}
-  
+} 
